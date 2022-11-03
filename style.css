@@ -253,7 +253,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color:#fff;
+    color:hotpink;
     padding-top: 1.5rem;
 }
 
@@ -275,6 +275,67 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+}
+
+.work .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.work .row .content .title{
+    text-transform: uppercase;
+    color:#ff1694;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.work .row .content h4{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color:rgb(239, 156, 204);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.work .row .content .position{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:rgb(239, 156, 204);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.work .row .content .info h4{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.work .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.work .row .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
 }
 
 .portfolio .box-container{
